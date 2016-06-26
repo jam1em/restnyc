@@ -1,0 +1,317 @@
+
+html {
+	height: 100%;
+}
+
+body {
+	font: normal 20px georgia, times;
+	color: white;
+	background-image: ('/images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#myDiv{
+    width:100vw;
+    height:100vh;
+}
+
+
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear { 
+	clear: both; 
+	height: 0; 
+	line-height: 0px;
+	font-size: 0px;
+	text-indent: -5000px;
+}
+
+.hidden {
+	display: none;
+}
+
+
+h1 {
+	font-size: 60px;
+	color: black;
+	margin: 0 0 32px 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 60px;
+	color: black;
+	margin: 18px 0 18px 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 60px;
+	color: #000000;
+	margin: 0 3px 0 0;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline;
+}
+
+p, ul, ol {
+	margin: 18px 0px 18px 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a img { border: none }
+
+a:link,
+
+a:visited {
+	color: #800000;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: white
+	color: black;
+	text-decoration: none;
+}
+
+
+a:focus {
+	outline: 0;
+}
+
+#panel {
+	width: 240px;
+	height: 100%;
+	background: rgba(118, 1, 0,.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0;
+}
+
+
+ul#nav {
+	margin: 34px 0 0 0;
+	list-style-type: none;
+	padding: 0 26px;
+	position: relative;
+	z-index: 10;
+}
+
+ul#nav li {
+	margin-bottom: 8px;
+}
+
+ul#nav li a:link,
+ul#nav li a:visited {
+	display: block;
+	width: 180px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+ul#nav li a.current:link,
+ul#nav li a.current:visited {
+	color: #000000;
+}
+
+.intro {
+	margin: 24px 26px;
+	position: relative;
+	z-index: 1000;
+}
+
+
+
+#text {
+	width: 450px;
+	padding: 50px 0 24px 26px;
+}
+
+
+h1 .subNav {
+	color: #e1c34b;
+	font-size: 18px;
+	margin-left: 18px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.gallery {
+	margin: 0 0 0 280px;
+	padding-top: 38px;
+}
+
+.gallery li {
+	height: 120px;
+	width: 180px;
+	padding: 0;
+	background-color: #000;
+	float: left;
+	margin: 0 20px 20px 0;
+	-webkit-box-shadow: 1px 1px 8px #1f0506; 
+	-moz-box-shadow: 1px 1px 8px #1f0506; 
+}
+
+.gallery li a:link,
+.gallery li a:visited {
+	display: block;
+	width: 170px;
+	height: 110px;
+	overflow: hidden;
+	float: left;
+	padding: 5px;
+	background-color: #000;
+}
+
+.gallery li a:hover {
+	background-color: #503b17;
+}
+
+#text2 {
+	width: 192px;
+	padding: 50px 26px 24px 26px;
+	position: fixed;
+	top: 0;
+	left: 240px;
+	color: #fff;
+}
+
+#text2 .phone {
+	font-size: 18px;
+}
+
+#text2 .email {
+	margin: -10px 0;
+}
+
+#text2 .adress {
+	line-height: 18px;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 0;
+}
+
+label {
+	font-size: 14px;
+	color: #fff;
+	margin: 0;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline;
+}
+
+.input {
+	border: 0;
+	background: transparent;
+	padding: 2px 4px 2px 10px;
+	font: normal 14px georgia, times;
+	color: #ccc;
+	width: 380px
+}
+
+input.short {
+	width: 120px;
+}
+
+textarea.input {
+	padding: 2px 0 2px 0;
+	height: 200px;
+	width: 450px;
+}
+
+
+#sendEmail:link,
+#sendEmail:visited {
+	margin: 0;
+	padding: 5px 10px 3px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: transparent url('../i/yellow30.png') repeat left bottom;
+}
+
+#sendEmail:hover{
+	background-color: #e1c34b;
+	color: #000;
+}
+
+
+
+#footer {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	font-size: 12px;
+	margin: 0 26px;
+	color: white;
+	font: normal 10px georgia, times;
+}
+
+
+
+
